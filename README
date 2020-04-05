@@ -1,0 +1,36 @@
+One Thing Right
+
+    Jeu cherchant à motiver, à réaliser différents objectifs dans la vie
+quotidienne, notamment à avoir la motivation pour travailler ou à accomplir 
+quotidiennement de bonnes habitudes. Lorsque le joueur réalise une de ses tâches il
+lui sera attribué un certain nombre de points appelé des “Golden Points” et en
+fonction de la tâche le nombre de point peut varier. Le jeu est un jeu
+“d’aventure” c’est-à-dire que le joueur incarnera un personnage
+personnalisable et devra progresser dans le jeu afin de monter de plus en
+plus en niveau, il y a aura notamment des boss symboliques qui vont
+permettre de montrer l'achèvement du joueur dans ses tâches, car les boss
+vont devenir de plus en plus dur à battre et pour les battre il faudra des bons
+items/objets déblocable grâce aux fameuses “Golden Points” (donc points
+débloquer grâce aux tâches accomplies et boss battus).
+
+==================================================================================
+Tâches à accomplir pour terminer le projet :
+  Structure Flask 
+  Compte Utilisateur register/login
+  Base de donnée utilisateur
+  Listes de tâches
+  Base de donnée listes de tâches
+  Personnage + Inventaire
+  Base de donnée Personnage + Inventaire
+  Magasin
+  Base de donnée Magasin
+  Boss
+  Base de donnée Boss
+  
+==================================================================================
+Update 03/05
+Structure Flask terminée
+Prochaine étape register/login
+
+Update 05/05
+register/login terminé 
