@@ -19,6 +19,15 @@ def liste():
     return render_template('liste.html', title='Liste de taches')
 
 
+@app.route('/add', methods=['POST'])
+def add():
+    todo = Todo(text=request.form['todoitem'], complete=False)
+    db.session.add(todo)
+    db.session.commit()
+
+    return redirect(url_for('liste'))
+
+
 @app.route("/inventaire")
 def inventaire():
     return render_template('inventaire.html', title='Inventaire')
