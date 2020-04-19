@@ -22,3 +22,9 @@ class Inventory(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), nullable=False)
     image = db.Column(db.String(20), nullable=False, default='mystere.png')
+    
+    
+class List(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    task = db.Column(db.String(200))
+    complete = db.Column(db.Boolean)     
